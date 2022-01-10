@@ -1,5 +1,5 @@
 export CORE_PEER_TLS_ENABLED=true
-export ORDERER_CA=${PWD}/crypto-config/peerOrganizations/org4.example.com/orderers/orderer0.org4.example.com/tls/tlscacerts/tls-localhost-9054-ca-org4-example-com.pem
+export ORDERER_CA=${PWD}/crypto-config/peerOrganizations/org4.example.com/orderers/orderer0.org4.example.com/tls/tlscacerts/tls-localhost-10054-ca-org4-example-com.pem
 export PEER0_ORG4_CA=${PWD}/crypto-config/peerOrganizations/org4.example.com/peers/peer0.org4.example.com/tls/ca.crt
 export PEER1_ORG4_CA=${PWD}/crypto-config/peerOrganizations/org4.example.com/peers/peer1.org4.example.com/tls/ca.crt
 export FABRIC_CFG_PATH=${PWD}/../artifacts/channel/config/
